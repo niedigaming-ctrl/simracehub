@@ -1,22 +1,14 @@
 name: Crawl prices & deploy
 
-# Wann läuft das?
 on:
   push:
-    branches: [main]                   # bei jedem Push auf main
+    branches: [main]
   schedule:
-    - cron: "0 4,16 * * *"             # 2× täglich (04:00 + 16:00 UTC)
-  workflow_dispatch:                   # manuell startbar im GitHub-UI
+    - cron: "0 4,16 * * *"
+  workflow_dispatch:
 
-# Berechtigungen für Pages-Deploy + Commit
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   crawl-and-deploy:
@@ -32,28 +24,22 @@ jobs:
 
       - name: Crawler ausführen
         run: node crawl-products.mjs sources.json
-        continue-on-error: true        # wenn einzelne Shops fehlschlagen, deployen wir trotzdem
+        continue-on-error: true
 
-      - name: products-live.json committen
+      - name: Commit updated data
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -n "$(git status --porcelain products-live.json)" ]; then
             git add products-live.json
             git commit -m "chore(crawl): update live data [skip ci]"
             git push
-          else
-            echo "Keine Änderungen an products-live.json — skip commit."
           fi
 
-      - name: Pages konfigurieren
-        uses: actions/configure-pages@v5
-
-      - name: Site als Pages-Artifact hochladen
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: .                      # Root des Repos = die HTML-Site
-
-      - name: Deploy auf GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+          force_orphan: true

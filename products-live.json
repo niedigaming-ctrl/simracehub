@@ -1,9 +1,154 @@
 {
-  "generatedAt": "2026-05-14T10:32:00Z",
-  "okCount": 1,
-  "failCount": 0,
-  "_note": "Beispiel-Output vom Crawler. Wird komplett überschrieben wenn du `node crawl-products.mjs sources.json` ausführst. Pro id:N gibt's einen Eintrag.",
+  "generatedAt": "2026-05-18T10:44:37.130Z",
+  "okCount": 5,
+  "failCount": 9,
   "products": {
+    "id:0": {
+      "id": 0,
+      "shopKey": "moza_r9",
+      "category": "wheelbase",
+      "url": "https://mozaracing.com/products/r9-wheelbase",
+      "note": "MOZA R9 V3 — Hero-Produkt (war v2, jetzt v3)",
+      "sourceUrl": "https://mozaracing.com/products/r9-wheelbase",
+      "finalUrl": "https://mozaracing.com/products/r9-wheelbase",
+      "title": "MOZA R9 V3 Direct Drive Wheel Base",
+      "image": "https://mozaracing.com/cdn/shop/files/R9_V3-1.webp?v=1754983260",
+      "description": "Elevate your sim racing with the MOZA R9 V3 Direct Drive Wheel Base. Experience 9 Nm of torque, a 21-bit magnetic encoder, and a high-performance servo motor. Crafted from aviation-grade aluminum for durability and precision. Compatible with PC platforms. Ships worldwide.",
+      "price": 469,
+      "currency": "CAD",
+      "availability": "InStock",
+      "rating": null,
+      "reviews": null,
+      "brand": "MOZA Racing",
+      "crawledAt": "2026-05-18"
+    },
+    "id:1": {
+      "id": 1,
+      "shopKey": "fanatec_csl_dd_plus",
+      "category": "wheelbase",
+      "url": "https://www.fanatec.com/eu/en/p/wheel-bases/cs_dd_15nm_eu/clubsport-dd-15-nm-eu",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:2": {
+      "id": 2,
+      "shopKey": "simucube_2_sport",
+      "category": "wheelbase",
+      "url": "https://simucube.com/simucube-2-sport/",
+      "sourceUrl": "https://simucube.com/simucube-2-sport/",
+      "finalUrl": "https://simucube.com/simucube-2-sport/",
+      "title": "Simucube 2 Sport | Direct Drive Force Feedback Wheelbase",
+      "image": "https://simucube.com/app/uploads/2023/09/WB-SPORT-6-LEFT.webp",
+      "description": "Simucube 2 Sport is a high end wheelbase with 17nm of torque - a luxury wheelbase to enter the Direct Drive Force Feedback sim racing club.",
+      "price": null,
+      "currency": null,
+      "availability": null,
+      "rating": null,
+      "reviews": null,
+      "brand": null,
+      "crawledAt": "2026-05-18"
+    },
+    "id:3": {
+      "id": 3,
+      "shopKey": "logitech_g_pro",
+      "category": "wheel",
+      "url": "https://www.logitechg.com/en-us/shop/p/pro-racing-wheel",
+      "error": "fetch failed",
+      "crawledAt": "2026-05-18"
+    },
+    "id:4": {
+      "id": 4,
+      "shopKey": "fanatec_formula_v25x",
+      "category": "wheel",
+      "url": "https://www.fanatec.com/eu/en/p/steering-wheels/formula_v2.5x_eu/formula-v2.5-x-eu",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:5": {
+      "id": 5,
+      "shopKey": "moza_csv2p",
+      "category": "wheel",
+      "url": "https://mozaracing.com/products/cs-v2p-steering-wheel",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:6": {
+      "id": 6,
+      "shopKey": "heusinkveld_sprint",
+      "category": "pedals",
+      "url": "https://www.heusinkveld.com/shop/sim-pedals/sim-pedals-sprint/",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:7": {
+      "id": 7,
+      "shopKey": "moza_srp_lite",
+      "category": "pedals",
+      "url": "https://mozaracing.com/products/sr-p-lite-pedals",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:8": {
+      "id": 8,
+      "shopKey": "heusinkveld_handbrake",
+      "category": "shifter",
+      "url": "https://www.heusinkveld.com/shop/sim-handbrake/sim-handbrake/",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:9": {
+      "id": 9,
+      "shopKey": "trakracer_tr8",
+      "category": "cockpit",
+      "url": "https://www.trakracer.com/products/tr8-pro-aluminium-sim-racing-cockpit",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
+    "id:10": {
+      "id": 10,
+      "shopKey": "playseat_trophy",
+      "category": "seat",
+      "url": "https://www.playseatstore.com/playseat-trophy/",
+      "sourceUrl": "https://www.playseatstore.com/playseat-trophy/",
+      "finalUrl": "https://www.playseatstore.com/playseat-trophy/",
+      "title": "Playseat",
+      "image": null,
+      "description": null,
+      "price": null,
+      "currency": null,
+      "availability": null,
+      "rating": null,
+      "reviews": null,
+      "brand": null,
+      "crawledAt": "2026-05-18"
+    },
+    "id:11": {
+      "id": 11,
+      "shopKey": "lg_34gp950g",
+      "category": "monitor",
+      "url": "https://www.lg.com/de/monitore/lg-34gp950g-b",
+      "note": "LG website sometimes serves localized JS-heavy pages — fallback geht aufs Microdata",
+      "sourceUrl": "https://www.lg.com/de/monitore/lg-34gp950g-b",
+      "finalUrl": "https://www.lg.com/de/monitore/gaming/34gp950g-b/",
+      "title": "34\" Curved UltraGear™ Gaming Monitor in 21:9 mit QHD+ und Nano IPS 1ms - 34GP950G-B | LG Deutschland",
+      "image": "https://www.lg.com/content/dam/channel/wcms/de/images/monitore/34gp950g-b_aeu_eedg_de_c/34GP950G-B_AEU_EEDG_DE_C-450x450.jpg",
+      "description": "Entdecken Sie LG 34GP950G-B. Für Bilder, Bewertungen und technische Daten zu LG klicken 34\" Curved UltraGear™ Gaming Monitor in 21:9 mit QHD+ und Nano IPS 1ms.",
+      "price": null,
+      "currency": null,
+      "availability": null,
+      "rating": null,
+      "reviews": null,
+      "brand": null,
+      "crawledAt": "2026-05-18"
+    },
+    "id:12": {
+      "id": 12,
+      "shopKey": "fanatec_gt_dd_pro_bundle",
+      "category": "bundle",
+      "url": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/gran-turismo-dd-pro-8nm-bundle-eu/gran-turismo-dd-pro-8-nm-bundle-eu",
+      "error": "HTTP 404",
+      "crawledAt": "2026-05-18"
+    },
     "id:13": {
       "id": 13,
       "shopKey": "fanatec_r2r_wrc_5nm",
@@ -11,16 +156,16 @@
       "url": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
       "sourceUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
       "finalUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
-      "title": "CSL DD QR2 Ready2Race WRC Bundle 5Nm (EU) | Fanatec",
-      "image": "https://assets.fanatec.com/image/upload/c_fill,q_auto,h_1333,w_2000/products/Bundles/ready2race/R2R_CSL_DD_QR2_WRC_5NM/R2R_CSL_DD_QR2_WRC_5NM-01B.webp",
-      "description": "CSL DD bundled with QR2 Ready2Race WRC steering wheel and 2-pedal load cell set.",
+      "title": "CSL DD QR2 Ready2Race WRC Bundle (5 Nm)",
+      "image": "https://res.cloudinary.com/fanatec-pwa/image/upload/c_fill%2Cq_auto%2Cw_96/products/Bundles/ready2race/R2R_CSL_DD_QR2_WRC_5NM/R2R_CSL_DD_QR2_WRC_5NM-01B.png",
+      "description": "Officially licensed by the World Rally Championship (WRC), the CSL Elite Steering Wheel WRC is perfect for mastering the most demanding rally stages. This wheel will be used in official WRC Esports competitions.",
       "price": 479.95,
       "currency": "EUR",
       "availability": "InStock",
       "rating": null,
       "reviews": null,
       "brand": "Fanatec",
-      "crawledAt": "2026-05-14"
+      "crawledAt": "2026-05-18"
     }
   }
 }

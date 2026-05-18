@@ -1,0 +1,88 @@
+[
+  {
+    "id": 0,
+    "shopKey": "moza_r9",
+    "category": "wheelbase",
+    "url": "https://mozaracing.com/products/r9-wheelbase",
+    "note": "MOZA R9 V3 — Hero-Produkt (war v2, jetzt v3)"
+  },
+  {
+    "id": 1,
+    "shopKey": "fanatec_csl_dd_plus",
+    "category": "wheelbase",
+    "url": "https://www.fanatec.com/eu/en/p/wheel-bases/cs_dd_15nm_eu/clubsport-dd-15-nm-eu"
+  },
+  {
+    "id": 2,
+    "shopKey": "simucube_2_sport",
+    "category": "wheelbase",
+    "url": "https://simucube.com/simucube-2-sport/"
+  },
+  {
+    "id": 3,
+    "shopKey": "logitech_g_pro",
+    "category": "wheel",
+    "url": "https://www.logitechg.com/en-us/shop/p/pro-racing-wheel"
+  },
+  {
+    "id": 4,
+    "shopKey": "fanatec_formula_v25x",
+    "category": "wheel",
+    "url": "https://www.fanatec.com/eu/en/p/steering-wheels/formula_v2.5x_eu/formula-v2.5-x-eu"
+  },
+  {
+    "id": 5,
+    "shopKey": "moza_csv2p",
+    "category": "wheel",
+    "url": "https://mozaracing.com/products/cs-v2p-steering-wheel"
+  },
+  {
+    "id": 6,
+    "shopKey": "heusinkveld_sprint",
+    "category": "pedals",
+    "url": "https://www.heusinkveld.com/shop/sim-pedals/sim-pedals-sprint/"
+  },
+  {
+    "id": 7,
+    "shopKey": "moza_srp_lite",
+    "category": "pedals",
+    "url": "https://mozaracing.com/products/sr-p-lite-pedals"
+  },
+  {
+    "id": 8,
+    "shopKey": "heusinkveld_handbrake",
+    "category": "shifter",
+    "url": "https://www.heusinkveld.com/shop/sim-handbrake/sim-handbrake/"
+  },
+  {
+    "id": 9,
+    "shopKey": "trakracer_tr8",
+    "category": "cockpit",
+    "url": "https://www.trakracer.com/products/tr8-pro-aluminium-sim-racing-cockpit"
+  },
+  {
+    "id": 10,
+    "shopKey": "playseat_trophy",
+    "category": "seat",
+    "url": "https://www.playseatstore.com/playseat-trophy/"
+  },
+  {
+    "id": 11,
+    "shopKey": "lg_34gp950g",
+    "category": "monitor",
+    "url": "https://www.lg.com/de/monitore/lg-34gp950g-b",
+    "note": "LG website sometimes serves localized JS-heavy pages — fallback geht aufs Microdata"
+  },
+  {
+    "id": 12,
+    "shopKey": "fanatec_gt_dd_pro_bundle",
+    "category": "bundle",
+    "url": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/gran-turismo-dd-pro-8nm-bundle-eu/gran-turismo-dd-pro-8-nm-bundle-eu"
+  },
+  {
+    "id": 13,
+    "shopKey": "fanatec_r2r_wrc_5nm",
+    "category": "bundle",
+    "url": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu"
+  }
+]

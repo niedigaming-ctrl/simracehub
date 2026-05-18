@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-05-14T10:32:00Z",
+  "okCount": 1,
+  "failCount": 0,
+  "_note": "Beispiel-Output vom Crawler. Wird komplett überschrieben wenn du `node crawl-products.mjs sources.json` ausführst. Pro id:N gibt's einen Eintrag.",
+  "products": {
+    "id:13": {
+      "id": 13,
+      "shopKey": "fanatec_r2r_wrc_5nm",
+      "category": "bundle",
+      "url": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
+      "sourceUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
+      "finalUrl": "https://www.fanatec.com/eu/en/p/sim-racing-bundles/r2r_csl_dd_qr2_wrc_5nm_eu/csl-dd-qr2-ready2race-wrc-bundle-5nm-eu",
+      "title": "CSL DD QR2 Ready2Race WRC Bundle 5Nm (EU) | Fanatec",
+      "image": "https://assets.fanatec.com/image/upload/c_fill,q_auto,h_1333,w_2000/products/Bundles/ready2race/R2R_CSL_DD_QR2_WRC_5NM/R2R_CSL_DD_QR2_WRC_5NM-01B.webp",
+      "description": "CSL DD bundled with QR2 Ready2Race WRC steering wheel and 2-pedal load cell set.",
+      "price": 479.95,
+      "currency": "EUR",
+      "availability": "InStock",
+      "rating": null,
+      "reviews": null,
+      "brand": "Fanatec",
+      "crawledAt": "2026-05-14"
+    }
+  }
+}
